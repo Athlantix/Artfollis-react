@@ -1,0 +1,236 @@
+.App{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+button{
+  background-color: rgb(233, 97, 97);
+  border: 2px solid rgb(233, 97, 97);
+  color: white;
+
+}
+
+.header{
+  background-color: rgb(233, 97, 97);
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.header a{
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+}
+.header h1{
+  margin: 15px;
+  margin-top: 0px;
+}
+.header-lien{
+  display: flex;
+  margin-top: 15px;
+}
+.publier{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.plus{
+  margin: 20px;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  color:white;
+  background-color: rgb(233, 97, 97);
+  text-align: center;
+  border-radius: 100%;
+}
+
+.ajouter{
+  padding:20px;
+  min-width: 20%;
+  height:100%;
+  border-right: 2px solid rgb(170, 170, 170);
+}
+.ajouter p strong{
+  background-color: rgb(233, 97, 97);
+  color:white;
+  padding:8px;
+}
+.ajouter button{
+  margin: 15px;
+  margin-left: 0px;
+}
+.main{
+  width: 100%;
+  display: flex;
+}
+
+.rubrique-article{
+  display: flex;
+  justify-content:space-between;
+  justify-content:center;
+
+  flex-wrap: wrap;
+}
+
+.article{
+  width: 250px;
+  height:350px;
+  text-align: center;
+  margin: 20px;
+  -webkit-box-shadow: -3px 3px 17px -3px #A17070; 
+  box-shadow: -3px 3px 17px -3px #A17070;
+  border-radius: 8px;
+}
+.article div{
+  height: 76%;
+  width: auto;
+  word-wrap: break-word;
+}
+
+.article img{
+  width: 100%;
+  height: 60%;
+  object-fit:cover;
+}
+.nom{
+  padding-bottom: 15px;
+  margin:0px
+}
+
+.description{
+  padding-bottom: 8px;
+  margin:0px
+}
+.article button {
+  margin-top: 15px;
+}
+.modifier div{
+  margin-top: -550px;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+  
+}
+
+.heart{
+  padding-top: 10px;
+  background-color:transparent;
+  color: rgb(241, 69, 69);
+  border: none;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
+}
+.heart span{
+  font-size: 30px;
+  margin-right:5px;
+  margin-bottom:3px;
+}
+.pseudo{
+  color:rgb(233, 97, 97);
+  font-weight:700;
+  
+}
+
+.accueil-main{
+  background-image: url('images/artfollisBack.jpg');
+  background-size: cover;
+  height: 500px;
+  margin-top: 0px;
+ color: white;
+ text-align: center;
+
+}
+.grey-background{
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 500px;
+}
+
+.accueil-main h1{
+ margin: 0px;
+ color: white;
+ padding-top: 50px;
+ font-size: 50px;
+}
+
+.accueil-main p{
+  font-size: 30px;
+}
+
+.accueil-main span{
+  color:rgb(233, 97, 97);
+}
+
+
+.border-connect{
+  width: 250px;
+  text-align: center;
+  background-color: rgb(233, 97, 97);
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.border-connect:hover{
+  filter: brightness(1.45);
+}
+
+.border-connect:nth-child(2n){
+  background-color: rgb(56, 56, 56);
+}
+
+.border-connect a{
+  text-decoration: none;
+  color:white;
+}
+
+
+.form-center{
+  display: flex;
+justify-content:center;}
+
+label{
+  margin: 10px;
+  display: block;
+}
+
+.form input{
+  display: block;
+  margin: 10px;
+
+}
+.form button a{
+  text-decoration: none;
+  color: white;
+}
+form{
+  display: flex;
+}
+.h1-connexion-inscription{
+  text-align: center;
+}
+
+.imageZoom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-bottom:100%;
+  background-color: black;
+}
+.imageZoom img{
+  margin-top: 100px;
+  width: 40%;
+  height: auto;
+ 
+}
+
