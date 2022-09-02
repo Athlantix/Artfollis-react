@@ -8,6 +8,8 @@ LANCER LE PROJET:
 A la racine du dossier pour le frontend : npm start
 
 Pour le backend: 
-cd backend 
+
+cd backend
+
 npm start 
 
